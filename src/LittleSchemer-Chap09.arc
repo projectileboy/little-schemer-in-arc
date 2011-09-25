@@ -31,7 +31,7 @@
 
 ; Functions like 'looking' are called "partial functions". The functions we've seen up to this point are called "total functions".
 
-; Themost extreme example of unnatural recursion - the most unnatural function: a simple infinite loop...
+; The most extreme example of unnatural recursion - the most unnatural function: a simple infinite loop...
 (def eternity (x) (eternity x))
 
 
@@ -58,7 +58,7 @@
 
 (length '(1 2 3 4 5 6 7))
 
-; Here's a question: could We define 'length' if we couldn't name it?
+; Here's a question: could we define 'length' if we couldn't name it?
 ;  Well... can we create an anonymous function that returns the length of just the empty list?
 ;   No problem...
 (= length-0
